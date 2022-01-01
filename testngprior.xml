@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<include name="regressiontest"></include>
+</run>
+</groups>
+  <test thread-count="5" name="prioprity">
+    <classes>
+      <class name="seleniumQ.prioprity"/>
+    </classes>
+  </test> <!-- prioprity -->
+</suite> <!-- Suite -->

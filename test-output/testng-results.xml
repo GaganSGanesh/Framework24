@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-23T08:34:11 IST" name="Suite" finished-at="2021-12-23T08:34:11 IST" duration-ms="102">
+    <groups>
+      <group name="regressiontest">
+        <method signature="prioprity.deletecreate()[pri:0, instance:seleniumQ.prioprity@32b260fa]" name="deletecreate" class="seleniumQ.prioprity"/>
+        <method signature="prioprity.modifycreate()[pri:0, instance:seleniumQ.prioprity@32b260fa]" name="modifycreate" class="seleniumQ.prioprity"/>
+      </group> <!-- regressiontest -->
+    </groups>
+    <test started-at="2021-12-23T08:34:11 IST" name="prioprity" finished-at="2021-12-23T08:34:11 IST" duration-ms="102">
+      <class name="seleniumQ.prioprity">
+        <test-method signature="deletecreate()[pri:0, instance:seleniumQ.prioprity@32b260fa]" started-at="2021-12-23T08:34:11 IST" name="deletecreate" finished-at="2021-12-23T08:34:11 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecreate -->
+        <test-method signature="modifycreate()[pri:0, instance:seleniumQ.prioprity@32b260fa]" started-at="2021-12-23T08:34:11 IST" name="modifycreate" finished-at="2021-12-23T08:34:11 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifycreate -->
+      </class> <!-- seleniumQ.prioprity -->
+    </test> <!-- prioprity -->
+  </suite> <!-- Suite -->
+</testng-results>
